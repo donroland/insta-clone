@@ -43,14 +43,14 @@ const PostFooter = ({ username, isProfilePage }) => {
       {!isProfilePage && (
         <>
           <Text fontSize={"sm"} fontWeight={700}>
-            {username}{" "}
+            {username}{""}
             <Text as={"span"} fontWeight={400}>
               Feeling good
             </Text>
+          </Text>
             <Text fontSize={"sm"} color={"gray"}>
               View all 1,000 comments
             </Text>
-          </Text>
         </>
       )}
 
